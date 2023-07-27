@@ -1,1 +1,1 @@
-# yte-sql-egitim
+# yte-egitim
