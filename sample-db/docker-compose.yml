@@ -12,7 +12,5 @@ services:
       - ./pagila-schema.sql:/docker-entrypoint-initdb.d/1-pagila-schema.sql
       - ./pagila-data.sql:/docker-entrypoint-initdb.d/2-pagila-data.sql
       - pgdata:/var/lib/postgresql/data
-    expose:
-      - 5433
     ports:
       - 5439:5432
