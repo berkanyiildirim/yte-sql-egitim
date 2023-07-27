@@ -166,16 +166,16 @@ CREATE TABLE public.most_popular_films(
 INSERT INTO 
    public.top_rated_films(title,release_year)
 VALUES
-   ('The Shawshank Redemption',1994),
-   ('The Godfather',1972),
-   ('12 Angry Men',1957);
+   ('Kuru Otlar Üstüne',2023),
+   ('Oppenheimer',2023),
+   ('Barbie',2023);
 
 INSERT INTO 
    public.most_popular_films(title,release_year)
 VALUES
-   ('An American Pickle',2020),
-   ('The Godfather',1972),
-   ('Greyhound',2020);
+   ('Sevmek Zamanı',2020),
+   ('Oppenheimer',2023),
+   ('Kader',2006);
 
 
 ---
