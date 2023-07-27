@@ -3,13 +3,13 @@
 Herhangi bir terminal üzerinden repository klonlanır:
 
 ```sh
-git clone git@github.com:berkanyiildirim/yte-egitim.git
+git clone https://github.com/berkanyiildirim/yte-sql-egitim.git
 ```
 
 docker-compose.yml dosyasının bulunduğu dizine gidilir:
 
 ```sh
-cd yte-egitim/sample-db/
+cd yte-sql-egitim/sample-db/
 ```
 
 Örnek veritabanı aşağıdaki komut ile oluşturulur:
