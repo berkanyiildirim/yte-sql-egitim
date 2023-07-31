@@ -22,7 +22,7 @@ Not: İlk çalıştırma sırasında PostgreSQL imajı DockerHub üzerinden çek
 
 Docker desktop üzerinden örnek veritabanının oluşturulduğu kontrol edilir.
 
-![Örnek veritabanı oluşturma](../img/img-1.jpeg "Veritabanı")
+![Örnek veritabanı oluşturma](/img/img-1.jpeg "Veritabanı")
 
 Bağlantı bilgileri:
 
@@ -34,4 +34,4 @@ port: 5439
 
 ## ER Diyagram
 
-![Örnek veritabanı ER diyagram](../img/img-2.png "ER diyagram")
+![Örnek veritabanı ER diyagram](/img/img-2.png "ER diyagram")
