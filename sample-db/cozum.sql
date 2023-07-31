@@ -2,7 +2,7 @@
 --select from
 select first_name || ' ' || last_name as isim_soyisim, email from customer;
 
---orderby
+--order by
 select distinct on (city) city ülke, country_id as ülke from city order by city desc;
 
 --distinct 
@@ -25,7 +25,7 @@ where
 	first_name like 'A%' and length(first_name) between 3 and 5 order by  length(first_name);
 
 
---wherein
+--where...in
 select
 	customer_id,
 	rental_id ,
@@ -57,7 +57,7 @@ WHERE length IN (
 ORDER BY length desc 
 LIMIT 1 offset 2;
 
---beetween/like
+--between/like
 select
 	*
 from
@@ -94,7 +94,7 @@ where
 		first_name like '_ERT%') order by customer_id ;
 
 
---groupby
+--group by
 select
 	customer_id,
 	staff_id,
@@ -121,7 +121,7 @@ having
 	COUNT (customer_id) > 200;
 
 
---right
+--Right join
 SELECT
 customer.customer_id,
 first_name,
@@ -135,7 +135,7 @@ ON payment.customer_id = customer.customer_id
 ORDER BY amount desc ;
 
 
---left
+--Left join
 select
 	c.customer_id,
 	c.first_name customer_first_name,
@@ -152,6 +152,3 @@ inner join staff s on
 	p.staff_id = s.staff_id
 order by
 	payment_date;
-
-
-
