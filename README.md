@@ -35,3 +35,17 @@ port: 5439
 ## ER Diyagram
 
 ![Örnek veritabanı ER diyagram](/img/img-2.png "ER diyagram")
+
+SQL için faydalı kaynaklar ve platformlar:
+
+1. https://sqlbolt.com/
+2. https://sqlzoo.net/
+3. https://lnkd.in/gtU9KcKN
+4. https://lnkd.in/gP7g4RKh
+5. https://lnkd.in/d3pt3MT4
+6. https://lnkd.in/gEAMv4Rw
+7. https://selectstarsql.com/
+8. https://lnkd.in/dfSEeXsC
+9. https://lnkd.in/gk5g3tQ9
+10. https://lnkd.in/gXbjt89S
+11. http://thedatamonk.com/
